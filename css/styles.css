@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.more_title{
+.more_title {
   font-family: 'Pangolin', cursive;
   font-size: 140%;
 }
@@ -22,6 +22,10 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+  [data-section-id="5e80c87763d7965a88ad6cce"] .gallery-slideshow {
+    height: 400px !important;
+  }
+
   .main-title {
     font-size: 2.5rem;
   }
