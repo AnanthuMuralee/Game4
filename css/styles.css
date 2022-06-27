@@ -1,0 +1,89 @@
+#heading {
+  padding: 4%;
+  padding-bottom: 6%;
+  background-color: #18978F;
+  background-image: url("../images/background.jpg");
+}
+
+body {
+  margin: 0;
+}
+
+.more_title{
+  font-family: 'Pangolin', cursive;
+  font-size: 140%;
+}
+
+.main-title {
+  color: #B8FFF9;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  img {
+    width: 14.8rem;
+    height: 14.8rem;
+  }
+
+  .body {
+    color: #18978F;
+    padding-top: 5%;
+    background-color: #B8FFF9;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .body {
+    color: #18978F;
+    padding-top: 5%;
+    background-color: #B8FFF9;
+    text-align: center;
+  }
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: #18978F;
+  color: #B8FFF9;
+  padding: 4%;
+  padding-bottom: 2%;
+  background-image: url("../images/background.jpg");
+}
+
+.credits {
+  font-size: 1rem;
+  font-family: 'Pangolin', cursive;
+}
+
+.game-over {
+  opacity: 0.8;
+}
+
+.SPS {
+  width: 15%;
+  height: 15%;
+  padding: 2%;
+}
+
+.btn-play {
+  font-family: 'Pangolin', cursive;
+}
+
+.more {
+  font-family: 'Pangolin', cursive;
+  font-size: 100%;
+  color: #B8FFF9;
+  text-decoration: none;
+}
