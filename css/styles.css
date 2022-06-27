@@ -7,7 +7,6 @@
 
 body {
   margin: 0;
-  background-color: #18978F;
 }
 
 .more_title{
@@ -22,7 +21,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .main-title {
     font-size: 2.5rem;
   }
@@ -34,14 +33,13 @@ body {
 
   .body {
     color: #18978F;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 5%;
     background-color: #B8FFF9;
     text-align: center;
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 901px) {
   img {
     width: 25rem;
     height: 25rem;
