@@ -1,17 +1,11 @@
-#heading {
-  padding: 4%;
-  padding-bottom: 6%;
-  background-color: #18978F;
-  background-image: url("../images/background.jpg");
-}
-
 body {
   margin: 0;
 }
 
-.more_title {
-  font-family: 'Pangolin', cursive;
-  font-size: 140%;
+#heading {
+  padding: 4%;
+  padding-bottom: 6%;
+  background-image: url("../images/background.jpg");
 }
 
 .main-title {
@@ -22,10 +16,6 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  [data-section-id="5e80c87763d7965a88ad6cce"] .gallery-slideshow {
-    height: 400px !important;
-  }
-
   .main-title {
     font-size: 2.5rem;
   }
@@ -34,13 +24,6 @@ body {
     width: 14.8rem;
     height: 14.8rem;
   }
-
-  .body {
-    color: #18978F;
-    padding-top: 5%;
-    background-color: #B8FFF9;
-    text-align: center;
-  }
 }
 
 @media only screen and (min-width: 901px) {
@@ -48,22 +31,27 @@ body {
     width: 25rem;
     height: 25rem;
   }
-
-  .body {
-    color: #18978F;
-    padding-top: 5%;
-    background-color: #B8FFF9;
-    text-align: center;
-  }
 }
 
-.container-fluid {
+.body {
+  color: #18978F;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #B8FFF9;
   text-align: center;
-  background-color: #18978F;
+}
+
+#foot {
+  text-align: center;
   color: #B8FFF9;
   padding: 4%;
   padding-bottom: 2%;
   background-image: url("../images/background.jpg");
+}
+
+.more_title {
+  font-family: 'Pangolin', cursive;
+  font-size: 140%;
 }
 
 .credits {
